@@ -27,3 +27,6 @@ jobs:
         run: |
           yarn install
           yarn test --ci --group=unit --color
+      - name: Run test
+        run: |
+           yarn test
